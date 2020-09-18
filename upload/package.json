@@ -1,0 +1,19 @@
+{
+  "name": "uploadcharities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "uploadCharities.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "aws-cli": "0.0.2",
+    "aws-sdk": "^2.701.0",
+    "dynamodb": "^1.2.1",
+    "firebase-admin": "^8.12.1",
+    "fs": "0.0.1-security"
+  }
+}
