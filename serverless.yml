@@ -15,7 +15,7 @@ provider:
         - dynamodb:GetItem
         - dynamodb:PutItem
         - dynamodb:UpdateItem
-      Resource: "arn:aws:dynamodb:us-east-1:005415505502:table/charity"
+      Resource: "arn:aws:dynamodb:us-east-1:{awsNumber}:table/charity"
 
 functions:
   get:
