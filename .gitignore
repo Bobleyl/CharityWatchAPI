@@ -1,2 +1,6 @@
 node_modules
 .serverless
+
+serverless.yml
+package.json
+upload/*
